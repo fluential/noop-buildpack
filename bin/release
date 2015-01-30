@@ -6,6 +6,6 @@
 cat <<EOF
 ---
 default_process_types:
-  web: pwd
+  web: sleep 10000
 EOF
 
