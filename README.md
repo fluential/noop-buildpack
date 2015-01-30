@@ -12,3 +12,7 @@ $ chmod +x .profile.d/start.sh
 $ vim .profile.d/start.sh   # edit start.sh to your liking, WD is root directory of the app folder, use any linux64 binaries
 $ cf push my-app -b https://github.com/igm/noop-buildpack
 ```
+
+## Sample
+Sample demo project that uses noop-buildpack for serving static files can be found here:
+https://github.com/igm/static-files-demo
