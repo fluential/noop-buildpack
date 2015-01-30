@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+
+# nothing here, app will bootstrap via ".profile.d" mechanism 
+
+cat <<EOF
+---
+default_process_types:
+  web: pwd
+EOF
+
