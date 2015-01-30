@@ -9,7 +9,9 @@ $ cd app
 $ mkdir .profile.d
 $ touch .profile.d/start.sh
 $ chmod +x .profile.d/start.sh
-$ vim .profile.d/start.sh   # edit start.sh to your liking, WD is root directory of the app folder, use any linux64 binaries
+$ vim .profile.d/start.sh   # edit start.sh to your liking, WD is the parent directory of the app folder, 
+                            # i.e. to start some binary from root of the project use app/<binary>
+                            # use any linux64 binaries
 $ cf push my-app -b https://github.com/igm/noop-buildpack
 ```
 
