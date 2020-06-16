@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo >&2 "$0 SKIPPING done."
+exit 2
